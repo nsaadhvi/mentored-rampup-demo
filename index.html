@@ -3,47 +3,152 @@
     <head id="header">
         <!-- Connects base.css to base.html -->
         <link href="./styles.css" rel="stylesheet" />
+        <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Courier'>
+        <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Oranienbaum'>
+        <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Gloock'>
+        <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Inter'>
         <!-- Connects base.js to base.html -->
         <script src="script.js"></script>
     </head>
-        <h1>Header 1</h1>
-        <h2>Header 2</h2>
-        <h3>Header 3</h3>
-        <div>
-            <p class="text">This is the beginning of Mentored!</p>
-            <p class="text">I am super excited!!!</p>
-        </div>
     <body id="body">
-        <div class="flex-container">
-            <a href="https://codebase.berkeley.edu">Press here to go to Codebase Website</a>
-            <img class="image" src="https://codebase.berkeley.edu/static/238f7857e162c32b372ec34e5e68b6ff/8dcbd/cb-logo-black.png">
-            <img class="image" src="https://larynqi.com/assets/img/denero-crop-2.PNG">
-            <iframe id="iframe" src="https://larynqi.com" title="description"></iframe>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <ul class="navbar">
+            <li><a href="#home">home</a></li>
+            <li><a href="#gallery">us O-o</a></li>
+        </ul>
+        <div class="home" id="home">
+            <div class="home-text">
+                <h3>welcome to</h3>
+                <h1><b>mentored!</b></h1>
+                <h4>we are single-handedly the best people at game pigeon mhm.</h4>
+            </div>
         </div>
-        <div class="interactive">
+
+
+        <div class="flex-container" id="gallery">
+            <div class="row-container">
+                <div class="card" id="button">
+                    <img class="image" src="img1.png" onclick="playSound('womp-womp.mp3')">
+                    <p class="text">justin and angie being slay ig</p>
+                </div>
+                <div class="card" id="button">
+                    <img class="image" src="img2.png" onclick="playSound('womp-womp.mp3')">
+                    <p class="text">best pms!!</p>
+                </div>
+                <div class="card" id="button">
+                    <img class="image" src="img3.png" onclick="playSound('womp-womp.mp3')">
+                    <p class="text">surprising sasha on sasha day</p>
+                </div>
+            </div>
+            <div class="row-container">
+                <div class="card" id="button">
+                    <img class="image" src="img4.png" onclick="playSound('womp-womp.mp3')">
+                    <p class="text">mentored at retreat!!</p>
+                </div>
+                <div class="card" id="button">
+                    <img class="image" src="img5.png" onclick="playSound('womp-womp.mp3')">
+                    <p class="text">r i p  a n t ; - ; </p>
+                </div>
+                <div class="card" id="button">
+                    <img class="image" src="img6.png" onclick="playSound('womp-womp.mp3')">
+                    <p class="text">ant feeding the homeless</p>
+                </div>
+            </div>
+        </div>
+<!--         
+        <div>
+            <ul class="navbar">
+                <li><a href="#home">the beginning</a></li>
+                <li><a href="#mood-board">the beginning</a></li>
+            </ul>
+        </div>
+        <section id="home">
+            <div class="home-text-container">
+                <img class="home-img" src="img3.png"> 
+                <h3 class="home-text-h3">Hello, my name is</h3>
+                <h1 class="home-text-h1">Saadhvi.</h1>
+                <a href="#mood-board"><button class="button" id="bhome">Welcome to my website!</button></a>
+            </div>
+        </section>
+        <section id="mood-board">
+            <div class="flex-container">
+                <div class="row-container">
+                    <div class="card" id="button">
+                        <img class="image" src="" onclick="sound()">
+                        <p class="text"></p>
+                    </div>
+                    <div class="card" id="button">
+                        <img class="image" src="">
+                        <p class="text"></p>
+                    </div>
+                    <div class="card" id="button">
+                        <img class="image" src="">
+                        <p class="text"></p>
+                    </div>
+                </div>
+                <div class="row-container">
+                    <div class="card" id="button">
+                        <img class="image" src="">
+                        <p class="text"></p>
+                    </div>
+                    <div class="card" id="button">
+                        <img class="image" src="">
+                        <p class="text"></p>
+                    </div>
+                    <div class="card" id="button">
+                        <img class="image" src="">
+                        <p class="text"></p>
+                    </div>
+                </div>
+                <div class="row-container">
+                    <div class="card" id="button">
+                        <img class="image" src="">
+                        <p class="text"></p>
+                    </div>
+                    <div class="card" id="button">
+                        <img class="image" src="">
+                        <p class="text"></p>
+                    </div>
+                    <div class="card" id="button">
+                        <img class="image" src="">
+                        <p class="text"></p>
+                    </div>
+                </div> 
+            </div>
+        </section>
+    -->
+        <!--
+            <div class="flex-container">
+                <a href="https://codebase.berkeley.edu">Press here to go to Codebase Website</a>
+                <img class="image" src="https://codebase.berkeley.edu/static/238f7857e162c32b372ec34e5e68b6ff/8dcbd/cb-logo-black.png">
+                <img class="image" src="https://larynqi.com/assets/img/denero-crop-2.PNG">
+                <iframe id="iframe" src="https://larynqi.com" title="description"></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="interactive">
+                <center>
+                    <button class="button" onclick="alert('this is the inline js way – dont do this way !!! 😡');">Press</button>
+                    <button class="button" id="my-id" onclick="myFunction()">Press me 2</button>
+                </center>
+            </div>
             <center>
-                <button class="button" onclick="alert('this is the inline js way – dont do this way !!! 😡');">Press</button>
-                <button class="button" id="my-id" onclick="myFunction()">Press me 2</button>
-            </center>
-        </div>
-        <center>
-            <form class="form" onsubmit="submit();">
-                <label>Username:</label>
-                <input id="username" type="text" name="username" placeholder="xXlarynisawesomeXx">
-                <br><br>
-                
-                <label>E-mail:</label>
-                <input id="email" type="email" name="emailaddress" required="true">
-                <br><br>
+                <form class="form" onsubmit="submit();">
+                    <label>Username:</label>
+                    <input id="username" type="text" name="username" placeholder="xXlarynisawesomeXx">
+                    <br><br>
+                    
+                    <label>E-mail:</label>
+                    <input id="email" type="email" name="emailaddress" required="true">
+                    <br><br>
 
-                <label>Password:</label>
-                <input id="password" type="password" name="password">
-                <br><br>
+                    <label>Password:</label>
+                    <input id="password" type="password" name="password">
+                    <br><br>
 
-                <input type="submit" value="Submit"/>
-            </form>
-    </center>
+                    <input type="submit" value="Submit"/>
+                </form>
+            
+            /center>
+        -->
     </body>
 </html>
 

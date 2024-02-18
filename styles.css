@@ -1,37 +1,128 @@
 /* .name to define css of classes */
-.flex-container {
-    /* to use flexbox, must have the display:flex line */
-    display:flex;
-    flex-direction:row-reverse;
-
-}
-
 .form {
     margin: 15px;
 }
 
 .image {
-    display:flex;
-    flex-wrap:wrap;
     border-radius: 8px;
-    width: 20vw;
-    height: 10vw;
+    width: 30vw;
+    height: 40vw;
+    margin: 5px;
+    object-fit: cover;
+
 }
 
-.button {
-    background-color: aliceblue;
-    outline: black;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    width:10vw;
+.image:hover {
+    width: 35vw;
+    height: 45vw;
+}
+
+.text {
+    font-family: Inter;
+    color: black;
+    align-self: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+/* Carousel */
+
+/* Gallery */
+.flex-container {
+    display: flex;
+    width: 100%;
+    margin-top: 300px;
     margin: 20px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
 }
 
-.text{
-    color:red;
-    font-family: 'Courier New', Courier, monospace;
+.row-container {
+    display: flex;
+    direction: row;
 }
 
-/* #name to define css of ids */
-#iframe {
-    width:50vw;
+/* Home */
+.home {
+    width: 100%;
+    height: 900px;
+    background-color: #4361EE;
+}
+.home-text {
+    align-items: left;
+    margin-left: 50px;
+    padding-top: 500px;
+}
+
+/* Fonts */
+h1 {
+    color: white;
+    font-family: Inter;
+    font-size: 150px;
+    margin: 0;
+}
+
+h3 {
+    color: white;
+    font-family: Inter;
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+h4 {
+    color: white;
+    font-family: Inter;
+    font-size: 15px;
+}
+
+
+/* Navbar */
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    position: fixed;
+    background-color: transparent;
+    top: 0;
+    font-size: 20px;
+}
+  
+.navbar-logo {
+    height: 30px;
+    width: 100px;
+    display: flex;
+}
+
+li {
+    float: right;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    margin: 14px 16px;
+    text-decoration: none;
+    font-family: Inter;
+
+}
+
+a:hover {
+    font-weight: bold;
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
 }

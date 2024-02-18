@@ -9,3 +9,8 @@ function submit() {
     alert('Username:', username.value, 'Email:', email.value, 'Password:', password.value);
     return false;
 }
+
+function playSound(url) {
+  new Audio(url).play();
+}
+
